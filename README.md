@@ -1,3 +1,7 @@
+# NYC Taxi Zone-Level Demand Forecasting
+
+📄 Full Report: [NYC_Taxi_Report.pdf](https://drive.google.com/file/d/1qB6OTSOFgJod4f49NYBTc97Ca1FwDKDr/view?usp=sharing)
+
 # Churn Model Benchmarking
 
 Imbalance-aware comparative evaluation of supervised machine learning models for customer churn prediction.
@@ -27,9 +31,5 @@ To systematically compare multiple classification algorithms under severe class 
 ## Key Insight
 
 Ensemble methods significantly outperform linear models in minority-class ranking and recall performance under heavy imbalance.
-
-## Repository Structure
-
-* `Training.py` – Model training pipeline
 * `Evaluation.py` – Metric computation & performance comparison
 * `Classification_Report_Evaluation.py` – Report generation and comparative summaries

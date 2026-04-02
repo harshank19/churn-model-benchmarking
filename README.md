@@ -31,3 +31,5 @@ To systematically compare multiple classification algorithms under severe class 
 Ensemble methods significantly outperform linear models in minority-class ranking and recall performance under heavy imbalance.
 * `Evaluation.py` – Metric computation & performance comparison
 * `Classification_Report_Evaluation.py` – Report generation and comparative summaries
+* `Fine_tuning.py` – Hyperparameter tuning for RandomForest model. Experiment tracking with MLFlow.
+* `RandomForest_Churn_API.py` – Model deployment using FastAPI

@@ -1,0 +1,33 @@
+# Churn Model Benchmarking
+
+Imbalance-aware comparative evaluation of supervised machine learning models for customer churn prediction.
+
+📄 Full Report: [Churn_Report.pdf](https://drive.google.com/file/d/1qB6OTSOFgJod4f49NYBTc97Ca1FwDKDr/view?usp=sharing)
+
+## Objective
+
+To systematically compare multiple classification algorithms under severe class imbalance (~5% churn rate) and evaluate their minority-class detection performance.
+
+## Models Evaluated
+
+* Logistic Regression
+* Naive Bayes
+* SGD Classifier
+* Decision Tree
+* Random Forest
+* Gradient Boosting
+* AdaBoost
+
+## Evaluation Strategy
+
+* Precision, Recall, F1 (macro & weighted)
+* Minority-class metrics
+* ROC Curve
+* Precision-Recall Curve
+* Model ranking analysis
+
+## Key Insight
+
+Ensemble methods significantly outperform linear models in minority-class ranking and recall performance under heavy imbalance.
+* `Evaluation.py` – Metric computation & performance comparison
+* `Classification_Report_Evaluation.py` – Report generation and comparative summaries

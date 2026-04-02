@@ -1,0 +1,19 @@
+# Data
+*.parquet
+*.csv
+
+# Models
+*.pkl
+
+# Cache
+__pycache__/
+*.pyc
+
+# LaTeX junk
+*.aux
+*.log
+*.out
+*.synctex.gz
+
+# Images (optional, keep only important ones)
+*.png
